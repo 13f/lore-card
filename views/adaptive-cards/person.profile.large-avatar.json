@@ -1,0 +1,70 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.0",
+	"body": [
+		{
+			"speak": "Super Me is a super hero, who believe Truth, justice and the love way. He is also the CEO of Super Ltd..",
+			"type": "Container",
+			"items": [
+				{
+					"type": "Image",
+					"url": "http://www.animationmagazine.net/images/articles/superman_66_150.gif",
+					"size": "large",
+					"style": "person",
+                    "horizontalAlignment": "center"
+				},
+				{
+					"type": "TextBlock",
+					"text": "Super Me",
+                    "size": "medium",
+					"weight": "bolder",
+					"wrap": true,
+                    "horizontalAlignment": "center"
+				},
+				{
+					"type": "TextBlock",
+					"spacing": "none",
+					"text": "CEO",
+					"isSubtle": true,
+					"wrap": true,
+                    "horizontalAlignment": "center"
+				},
+				{
+					"type": "TextBlock",
+					"text": "Truth, justice and the love way.",
+					"wrap": true,
+                    "horizontalAlignment": "center"
+				},
+				{
+					"type": "FactSet",
+					"facts": [
+                        {
+							"title": "Expert in:",
+							"value": "Communication; Product Design; Fly"
+						},
+						{
+							"title": "Working:",
+							"value": "Super Ltd."
+						},
+                        {
+							"title": "Graduated:",
+							"value": "MIT"
+						},
+						{
+							"title": "Borned:",
+							"value": "{{DATE(1900-02-14T06:08:39Z,SHORT)}}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"actions": [
+		{
+			"type": "Action.OpenUrl",
+			"title": "Blog",
+			"url": "http://blog.super.me/"
+		}
+	]
+}
