@@ -1,4 +1,6 @@
 {
+  "title": "AdaptiveCard demo about flight itinerary",
+  "keywords": "AdaptiveCard; flight itinerary",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0",
   "type": "AdaptiveCard",

@@ -1,4 +1,6 @@
 {
+	"title": "AdaptiveCard demo about personal profile with medium avatar",
+    "keywords": "AdaptiveCard; personal profile; medium avatar",
 	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
 	"type": "AdaptiveCard",
 	"version": "1.0",

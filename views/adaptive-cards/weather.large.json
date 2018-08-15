@@ -1,4 +1,6 @@
 {
+  "title": "AdaptiveCard demo about weather in large view",
+  "keywords": "AdaptiveCard; weather; large",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
